@@ -1,4 +1,5 @@
 import org.junit.Before;
+import org.junit.Test;
 
 public class BooksTest {
 
@@ -9,6 +10,10 @@ public class BooksTest {
         books = new Books("The Vertical Plane", "K. Webster", "Mystery");
     }
 
+    @Test
+    public void getTitle(){
+
+    }
 
 
 }

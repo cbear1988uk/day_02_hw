@@ -7,11 +7,14 @@ public class LibraryTest {
 
     public Library library;
     public Books books;
+//               book1^
+//  public Books book2;
 
     @Before
     public void setup(){
         library = new Library("Hillhead Library", 10);
         books = new Books("The Vertical Plane", "K. Webster", "Mystery");
+//      book1^
     }
 
     @Test

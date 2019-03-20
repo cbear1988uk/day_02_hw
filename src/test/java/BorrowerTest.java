@@ -25,6 +25,7 @@ public class BorrowerTest {
    @Test
     public void borrowBook(){
        borrower.takeBook(books);
+       assertEquals(1, borrower.bookCount());
    }
 
    @Test
